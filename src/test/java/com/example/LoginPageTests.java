@@ -27,7 +27,8 @@ public class LoginPageTests extends BaseTests{
     	HomePage objHomePage = new HomePage(driver);
     	
     	// Verify Home Page
-    	Assert.assertEquals("Pizarra de pendientes",objHomePage.getHomePageText());
+    	Assert.assertEquals(objHomePage.getHomePageText(),"Dashboard");
+
     
     }
     
